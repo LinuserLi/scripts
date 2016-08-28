@@ -34,7 +34,7 @@ MS Name/IP address         Stratum Poll Reach LastRx Last sample
 #Install Mariadb
 
 #配置mariadb-10.1 官方的源
-cat <<  eof >> /etc/yum.repos.d/mariadb.repo
+[root@node01 ~ 14:48:37&&1]#cat <<  eof >> /etc/yum.repos.d/mariadb.repo
 [mariadb]
 name = MariaDB
 baseurl = http://yum.mariadb.org/10.1/centos7-amd64
@@ -43,24 +43,25 @@ gpgcheck=1
 eof
 
 #安装mariadb
-yum install -y mariadb mariadb-server MySQL-python
+[root@node01 ~ 14:48:37&&1]#yum install -y mariadb mariadb-server MySQL-python
 
 #修改mariadb 数据存路径
-sed -i 's#^basedir=#basedir=/usr#' /etc/init.d/mysql
-sed -i 's#^datadir=#datadir=/data/mysql/data#' /etc/init.d/mysql
+[root@node01 ~ 14:48:37&&1]#sed -i 's#^basedir=#basedir=/usr#' /etc/init.d/mysql
+[root@node01 ~ 14:48:37&&1]#sed -i 's#^datadir=#datadir=/data/mysql/data#' /etc/init.d/mysql
 
 #创建数据库目录，并将所属主和组都修改为mysql
-mkdir -p /data/mysql/data && chown -R mysql:mysql /data/mysql
+[root@node01 ~ 14:48:37&&1]#mkdir -p /data/mysql/data && chown -R mysql:mysql /data/mysql
 
 #备份默认的配置文件
-mv /etc/my.cnf{,.bak}
+[root@node01 ~ 14:48:37&&1]#mv /etc/my.cnf{,.bak}
 
 #重新配置的主配置文件
-cat << eof > /etc/my.cnf
+[root@node01 ~ 14:48:37&&1]#cat << eof > /etc/my.cnf
 [mysqld]
 datadir=/data/mysql/data
 socket=/var/lib/mysql/mysql.sock
 symbolic-links=0
+skip-name-resolve
 [mysqld_safe]
 log-error=/var/log/mariadb/mariadb.log
 pid-file=/var/run/mariadb/mariadb.pid
@@ -68,7 +69,7 @@ pid-file=/var/run/mariadb/mariadb.pid
 eof
 
 #openstack 配置文件
-cat << eof > /etc/my.cnf.d/mariadb_openstack.cnf
+[root@node01 ~ 14:48:37&&1]#cat << eof > /etc/my.cnf.d/mariadb_openstack.cnf
 [mysqld]
 bind-address = 10.10.10.11
 default-storage-engine = innodb
@@ -79,12 +80,12 @@ character-set-server = utf8
 eof
 
 #初始化配置
-mysql_install_db --user=mysql --datadir=/data/mysql/data --basedir=/usr/
+[root@node01 ~ 14:48:37&&1]#mysql_install_db --user=mysql --datadir=/data/mysql/data --basedir=/usr/
 
 #启动
-systemctl start mariadb.service && systemctl enable mariadb.service
+[root@node01 ~ 14:48:37&&1]#systemctl start mariadb.service && systemctl enable mariadb.service
 
-mysql_secure_installation
+[root@node01 ~ 14:48:37&&1]#mysql_secure_installation
 
 NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
       SERVERS IN PRODUCTION USE!  PLEASE READ EACH STEP CAREFULLY!
@@ -149,13 +150,13 @@ Thanks for using MariaDB!
 ===============================================================================================================================================================================================
 # Install Mongodb
 
-yum install -y mongodb mongodb-server
+[root@node01 ~ 14:48:37&&1]#yum install -y mongodb mongodb-server
 
-mv /etc/mongod.conf{,.bak}
+[root@node01 ~ 14:48:37&&1]#mv /etc/mongod.conf{,.bak}
 
-mkdir -p /data/mongodb/data && chown -R mongodb:mongodb /data/mongodb
+[root@node01 ~ 14:48:37&&1]#mkdir -p /data/mongodb/data && chown -R mongodb:mongodb /data/mongodb
 
-cat << eof > /etc/mongod.conf
+[root@node01 ~ 14:48:37&&1]#cat << eof > /etc/mongod.conf
 bind_ip = 10.10.10.11
 fork = true
 pidfilepath = /var/run/mongodb/mongod.pid
@@ -165,15 +166,15 @@ dbpath = /data/mongodb/data
 smallfiles = true
 eof
 
-systemctl start mongod &&systemctl enable mongod
+[root@node01 ~ 14:48:37&&1]#systemctl start mongod &&systemctl enable mongod
 ==============================================================================================================================================================================================
 #Install memcached
 
-yum install -y memcached python-memcached
+[root@node01 ~ 14:48:37&&1]#yum install -y memcached python-memcached
 
-mv /etc/sysconfig/memcached{,.bak}
+[root@node01 ~ 14:48:37&&1]#mv /etc/sysconfig/memcached{,.bak}
 
-cat << eof > /etc/sysconfig/memcached
+[root@node01 ~ 14:48:37&&1]#cat << eof > /etc/sysconfig/memcached
 PORT="11211"
 USER="memcached"
 MAXCONN="10000"
@@ -181,17 +182,17 @@ CACHESIZE="64"
 OPTIONS="-l 10.10.10.11"
 eof
 
-systemctl start memcached && systemctl enable memcached
+[root@node01 ~ 14:48:37&&1]#systemctl start memcached && systemctl enable memcached
 =============================================================================================================================================================================================
 #install rabbitmq-server
 
-yum install -y rabbitmq-server
+[root@node01 ~ 14:48:37&&1]#yum install -y rabbitmq-server
 
-systemctl start rabbitmq-server.service && systemctl enable rabbitmq-server.service
+[root@node01 ~ 14:48:37&&1]#systemctl start rabbitmq-server.service && systemctl enable rabbitmq-server.service
 
-rabbitmqctl add_user openstack I1EeXw3H2O7CQrkrz6BF3M8LJns=
+[root@node01 ~ 14:48:37&&1]#rabbitmqctl add_user openstack I1EeXw3H2O7CQrkrz6BF3M8LJns=
 
-rabbitmqctl set_permissions openstack ".*" ".*" ".*"
+[root@node01 ~ 14:48:37&&1]#rabbitmqctl set_permissions openstack ".*" ".*" ".*"
 
 
 
