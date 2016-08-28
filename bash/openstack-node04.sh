@@ -132,7 +132,7 @@ verbose=true
 rpc_backend=rabbit
 [api_database]
 [database]
-connection=mysql://nova:3fXOSGPn4vqBxbZ8Wgwln8o5iYk=@10.10.10.11/nova
+connection=mysql://nova:'3fXOSGPn4vqBxbZ8Wgwln8o5iYk='@10.10.10.11/nova
 [barbican]
 [cells]
 [cinder]
@@ -157,7 +157,7 @@ project_domain_id = default
 user_domain_id = default
 project_name = service
 username = nova
-password = bMdwBJb9b/SjxN7nsHwKDUojjyc=
+password = 'bMdwBJb9b/SjxN7nsHwKDUojjyc='
 [libvirt]
 virt_type=qemu
 [matchmaker_redis]
@@ -173,7 +173,7 @@ lock_path=/data/nova/tmp
 rabbit_host=10.10.10.11
 rabbit_port=5672
 rabbit_userid=openstack
-rabbit_password=I1EeXw3H2O7CQrkrz6BF3M8LJns=
+rabbit_password='I1EeXw3H2O7CQrkrz6BF3M8LJns='
 [oslo_middleware]
 [rdp]
 [serial_console]
@@ -390,7 +390,7 @@ rpc_backend = rabbit
 [cors]
 [cors.subdomain]
 [database]
-connection = mysql://cinder:cgA63A4juHrz0Q4YOr3UM6MvD28=@10.10.10.11/cinder
+connection = mysql://cinder:'cgA63A4juHrz0Q4YOr3UM6MvD28='@10.10.10.11/cinder
 [fc-zone-manager]
 [keymgr]
 [keystone_authtoken]
@@ -401,7 +401,7 @@ project_domain_id = default
 user_domain_id = default
 project_name = service
 username = cinder
-password = zwti4fpvcKlt2Wa9p9WsWOOtAv4=
+password = 'zwti4fpvcKlt2Wa9p9WsWOOtAv4='
 [matchmaker_redis]
 [matchmaker_ring]
 [oslo_concurrency]
@@ -411,7 +411,7 @@ lock_path = /data/cinder/tmp
 [oslo_messaging_rabbit]
 rabbit_host = 10.10.10.11
 rabbit_userid = openstack
-rabbit_password = I1EeXw3H2O7CQrkrz6BF3M8LJns=
+rabbit_password = 'I1EeXw3H2O7CQrkrz6BF3M8LJns='
 [oslo_middleware]
 [oslo_policy]
 [oslo_reports]

@@ -52,7 +52,7 @@ MariaDB [keystone]> select user,host from mysql.user where user='keystone';
 
 [root@node02 ~ 08:44:41&&19]# cat << eof > /etc/keystone/keystone.conf
 [DEFAULT]
-admin_token = yqFpg853RDm7b8NXygngeK2VT8Y=
+admin_token = 'yqFpg853RDm7b8NXygngeK2VT8Y='
 verbose = true
 [assignment]
 [auth]
@@ -62,7 +62,7 @@ verbose = true
 [cors.subdomain]
 [credential]
 [database]
-connection = mysql://keystone:CeI8J9zWJduxuw8+D6gn6QNXgR4=@10.10.10.11/keystone
+connection = mysql://keystone:'CeI8J9zWJduxuw8+D6gn6QNXgR4='@10.10.10.11/keystone
 [domain_config]
 [endpoint_filter]
 [endpoint_policy]
@@ -171,7 +171,7 @@ LISTEN     0      128         :::5000                    :::*                   
 ",pid=5601,fd=6),("httpd",pid=5600,fd=6),("httpd",pid=5589,fd=6))
 
 
-[root@node02 ~ 09:05:13&&32]#export OS_TOKEN=yqFpg853RDm7b8NXygngeK2VT8Y=
+[root@node02 ~ 09:05:13&&32]#export OS_TOKEN='yqFpg853RDm7b8NXygngeK2VT8Y='
 [root@node02 ~ 09:05:51&&33]#export OS_URL=http://10.10.10.12:35357/v3
 [root@node02 ~ 09:05:51&&34]#export OS_IDENTITY_API_VERSION=3
 
@@ -548,9 +548,9 @@ project_domain_id = default
 user_domain_id = default
 project_name = service
 username = neutron
-password = j+AgyK9uRXv2CEmlGHGyL7e0/aY=
+password = 'j+AgyK9uRXv2CEmlGHGyL7e0/aY='
 [database]
-connection = mysql://neutron:cO1qxHjbl/5dsP0Avm5x2DpSass=@10.10.10.11:3306/neutron
+connection = mysql://neutron:'cO1qxHjbl/5dsP0Avm5x2DpSass='@10.10.10.11:3306/neutron
 [nova]
 auth_url = http://10.10.10.12:35357
 auth_plugin = password
@@ -559,7 +559,7 @@ user_domain_id = default
 region_name = RegionOne
 project_name = service
 username = nova
-password = bMdwBJb9b/SjxN7nsHwKDUojjyc=
+password = 'bMdwBJb9b/SjxN7nsHwKDUojjyc='
 [oslo_concurrency]
 lock_path = /data/neutron/tmp
 [oslo_policy]
@@ -569,7 +569,7 @@ lock_path = /data/neutron/tmp
 rabbit_host = 10.10.10.11
 rabbit_port = 5672
 rabbit_userid = openstack
-rabbit_password = I1EeXw3H2O7CQrkrz6BF3M8LJns=
+rabbit_password = 'I1EeXw3H2O7CQrkrz6BF3M8LJns='
 [qos]
 eof
 
@@ -627,10 +627,10 @@ project_domain_id = default
 user_domain_id = default
 project_name = service
 username = neutron
-password = j+AgyK9uRXv2CEmlGHGyL7e0/aY=
+password = 'j+AgyK9uRXv2CEmlGHGyL7e0/aY='
 nova_metadata_ip = 10.10.10.14
 nova_metadata_port = 8775
-metadata_proxy_shared_secret = hzRxBpSgrokA59/CQkUEbSts2OY=
+metadata_proxy_shared_secret = 'hzRxBpSgrokA59/CQkUEbSts2OY='
 [AGENT]
 eof
 
@@ -644,9 +644,9 @@ user_domain_id = default
 region_name = RegionOne
 project_name = service
 username = neutron
-password = j+AgyK9uRXv2CEmlGHGyL7e0/aY=
+password = 'j+AgyK9uRXv2CEmlGHGyL7e0/aY='
 service_metadata_proxy = True
-metadata_proxy_shared_secret = hzRxBpSgrokA59/CQkUEbSts2OY=
+metadata_proxy_shared_secret = 'hzRxBpSgrokA59/CQkUEbSts2OY='
 
 [root@node02 ~ 17:09:03&&49]#ln -s /etc/neutron/plugins/ml2/ml2_conf.ini /etc/neutron/plugin.ini
 

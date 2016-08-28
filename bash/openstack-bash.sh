@@ -33,7 +33,6 @@ CeilometerDB_password   YMVUjnZq+OW5+9CvnrWBrkfGc78=        Ceilometer_password 
 DashDB_password         v33f8NU8iwtNtklaHEfrCqyNz1g=        Dash_password           XamIPjiBsgyTYeCbXra7LYNgGeU=
 HeatDB_password         fr4xpv4PU04xLAKnEIe7fkcrkgg=
 Heat_password           SI2FI8ovQgBDlBvboKhH/fG8aIY=        Heat_domin_password     85zJJ1UZ0IHt73H/1C13pdbfh+g=
-
 Swift_password          IJrvE+6ybf6XdZLW/Rv4/Ru2bgQ=
 
 # 请参考：http://docs.openstack.org/liberty/install-guide-rdo/environment-security.html

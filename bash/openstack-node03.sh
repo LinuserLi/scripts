@@ -118,7 +118,7 @@ Repeat User Password:
 verbose=True
 notification_driver = noop
 [database]
-connection=mysql://glance:f7epf8yLlSLsE6T0yNz1/+W1ZTA=@10.10.10.11/glance
+connection=mysql://'glance:f7epf8yLlSLsE6T0yNz1/+W1ZTA='@10.10.10.11/glance
 [glance_store]
 default_store = file
 filesystem_store_datadir=/data/glance/images/
@@ -131,7 +131,7 @@ project_domain_id = default
 user_domain_id = default
 project_name = service
 username = glance
-password = ixViksr9B+ge0G/8HLmMVgDdlAo=
+password = 'ixViksr9B+ge0G/8HLmMVgDdlAo='
 [matchmaker_redis]
 [matchmaker_ring]
 [oslo_concurrency]
@@ -152,7 +152,7 @@ eof
 verbose=True
 notification_driver = noop
 [database]
-connection=mysql://glance:f7epf8yLlSLsE6T0yNz1/+W1ZTA=@10.10.10.11/glance
+connection=mysql://glance:'f7epf8yLlSLsE6T0yNz1/+W1ZTA='@10.10.10.11/glance
 [glance_store]
 [keystone_authtoken]
 auth_uri = http://10.10.10.12:5000
@@ -162,7 +162,7 @@ project_domain_id = default
 user_domain_id = default
 project_name = service
 username = glance
-password = ixViksr9B+ge0G/8HLmMVgDdlAo=
+password = 'ixViksr9B+ge0G/8HLmMVgDdlAo='
 [matchmaker_redis]
 [matchmaker_ring]
 [oslo_messaging_amqp]
@@ -259,7 +259,7 @@ firewall_driver = nova.virt.firewall.NoopFirewallDriver
 verbose=true
 rpc_backend=rabbit
 [api_database]
-connection=mysql://nova:3fXOSGPn4vqBxbZ8Wgwln8o5iYk=@10.10.10.11/nova
+connection=mysql://nova:'3fXOSGPn4vqBxbZ8Wgwln8o5iYk='@10.10.10.11/nova
 [barbican]
 [cells]
 [cinder]
@@ -283,7 +283,7 @@ project_domain_id = default
 user_domain_id = default
 project_name = service
 username = nova
-password = bMdwBJb9b/SjxN7nsHwKDUojjyc=
+password = 'bMdwBJb9b/SjxN7nsHwKDUojjyc='
 [libvirt]
 virt_type=qemu
 [matchmaker_redis]
@@ -299,7 +299,7 @@ lock_path=/data/nova/tmp
 rabbit_host=10.10.10.11
 rabbit_port=5672
 rabbit_userid=openstack
-rabbit_password=I1EeXw3H2O7CQrkrz6BF3M8LJns=
+rabbit_password='I1EeXw3H2O7CQrkrz6BF3M8LJns='
 [oslo_middleware]
 [rdp]
 [serial_console]
@@ -453,7 +453,7 @@ project_domain_id = default
 user_domain_id = default
 project_name = service
 username = neutron
-password = j+AgyK9uRXv2CEmlGHGyL7e0/aY=
+password = 'j+AgyK9uRXv2CEmlGHGyL7e0/aY='
 [database]
 [nova]
 [oslo_concurrency]
@@ -464,7 +464,7 @@ lock_path = /data/neutron/tmp
 [oslo_messaging_rabbit]
 rabbit_host = 10.10.10.11
 rabbit_userid = openstack
-rabbit_password = I1EeXw3H2O7CQrkrz6BF3M8LJns=
+rabbit_password = 'I1EeXw3H2O7CQrkrz6BF3M8LJns='
 [qos]
 eof
 
@@ -479,7 +479,7 @@ user_domain_id = default
 region_name = RegionOne
 project_name = service
 username = neutron
-password = j+AgyK9uRXv2CEmlGHGyL7e0/aY=
+password = 'j+AgyK9uRXv2CEmlGHGyL7e0/aY='
 eof
 
 [root@node03 ~ 17:43:12&&11]#cp /etc/neutron/plugins/ml2/linuxbridge_agent.ini{,.bak}
@@ -606,7 +606,7 @@ rpc_backend = rabbit
 [cors]
 [cors.subdomain]
 [database]
-connection = mysql://cinder:cgA63A4juHrz0Q4YOr3UM6MvD28=@10.10.10.11/cinder
+connection = mysql://cinder:'cgA63A4juHrz0Q4YOr3UM6MvD28='@10.10.10.11/cinder
 [fc-zone-manager]
 [keymgr]
 [keystone_authtoken]
@@ -617,7 +617,7 @@ project_domain_id = default
 user_domain_id = default
 project_name = service
 username = cinder
-password = zwti4fpvcKlt2Wa9p9WsWOOtAv4=
+password = 'zwti4fpvcKlt2Wa9p9WsWOOtAv4='
 [matchmaker_redis]
 [matchmaker_ring]
 [oslo_concurrency]
@@ -627,7 +627,7 @@ lock_path = /data/cinder/tmp
 [oslo_messaging_rabbit]
 rabbit_host = 10.10.10.11
 rabbit_userid = openstack
-rabbit_password = I1EeXw3H2O7CQrkrz6BF3M8LJns=
+rabbit_password = 'I1EeXw3H2O7CQrkrz6BF3M8LJns='
 [oslo_middleware]
 [oslo_policy]
 [oslo_reports]
