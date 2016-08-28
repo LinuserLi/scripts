@@ -472,21 +472,3 @@ cinder    7420  0.0  3.3 467196 68312 ?        S    21:35   0:00 /usr/bin/python
 cinder    7421  0.0  3.3 467196 68312 ?        S    21:35   0:00 /usr/bin/python2 /usr/bin/cinder-api --config-file /usr/share/cinder/cinder-dist.conf
 --config-file /etc/cinder/cinder.conf --logfile /var/log/cinder/api.log
 root      7444  0.0  0.0 112648   976 pts/2    S+   21:36   0:00 grep -E --color=auto cinder
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
