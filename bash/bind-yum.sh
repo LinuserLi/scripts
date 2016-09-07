@@ -54,7 +54,7 @@ eof
 
 #配置反向文件：
 cat << eof > /var/named/${IP_3}.zone
-\$TTL 1D
+$TTL 1D
 @               IN  SOA  ${DOMAIN}.   root.${DOMAIN}. (
                                             0       ; serial
                                             1D      ; refresh
@@ -74,7 +74,7 @@ eof
 named-checkconf
 
 #检查正向和反向是否有问题：
-named-checkzone '"${DOMAIN}"' /var/named/"${DOMAIN}"
+named-checkzone "${DOMAIN}" /var/named/${DOMAIN}
 named-checkzone '137.168.192.in-addr.apra' /var/named/${IP_3}.zone
 
 systemctl start named && systemctl enable named
