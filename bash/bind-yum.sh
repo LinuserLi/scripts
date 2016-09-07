@@ -36,7 +36,7 @@ eof
 
 #写入正向配置的内容
 cat << eof > /var/named/"${DOMAIN}"
-$TTL 1D
+\$TTL 1D
 @               IN  SOA  ns.${DOMAIN}.  root.${DOMAIN}. (
                                               0
                                               1D
@@ -54,7 +54,7 @@ eof
 
 #配置反向文件：
 cat << eof > /var/named/${IP_3}.zone
-$TTL 1D
+\$TTL 1D
 @               IN  SOA  ${DOMAIN}.   root.${DOMAIN}. (
                                             0       ; serial
                                             1D      ; refresh
