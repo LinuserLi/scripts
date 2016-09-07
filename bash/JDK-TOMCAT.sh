@@ -56,7 +56,7 @@ JAVA_HOME=/usr/local/jdk1.8.0_60
 JAVA_BIN=/usr/local/jdk1.8.0_60/bin
 JRE_HOME=/usr/local/jdk1.8.0_60/jre
 CLASSPATH=/usr/local/jdk1.8.0_60/lib:/usr/local/jdk1.8.0_60/jre/lib:/usr/local/jdk1.8.0_60/jre/lib/charsets.jar
-PATH=$PATH:/usr/local/jdk1.8.0_60/bin:/usr/local/jdk1.8.0_60/jre/bin
+PATH=\$PATH:/usr/local/jdk1.8.0_60/bin:/usr/local/jdk1.8.0_60/jre/bin
 export JAVA_HOME  JAVA_BIN JRE_HOME  CLASSPATH PATH
 EOF
 
