@@ -8,7 +8,7 @@ DATE="$(date +%Y%m%d%H%M%S)"
 CONF='/etc/named.conf'
 read -p 'please input you domain: ' DOMAIN
 read -p 'Please input your DNS address: ' IP
-
+IP_3=$(echo $IP|awk -F '.' '{print $1"."$2"."$3}')
 #开始安装Bind
 yum install -y bind bind-libs bind-utils bind-devel
 
@@ -17,7 +17,7 @@ cp $CONF{,.${DATE}_bak}
 
 sed -i 's@listen-on port 53 { 127.0.0.1; };@listen-on port 53 { ${IP}; };@' $CONF
 sed -i 's@listen-on-v6 port 53 { ::1; };@// listen-on-v6 port 53 { ::1; };@' $CONF
-sed -i 's@allow-query     { localhost; };@allow-query     { 192.168.137.0/24; };@' $CONF
+sed -i 's@allow-query     { localhost; };@allow-query     { ${IP_3}.0/24; };@' $CONF
 
 #写入正向解析配置
 cat << eof >/etc/named.rfc1912.zones
@@ -29,7 +29,7 @@ zone "${DOMAIN}" IN {
 #写入反向解析配置
 zone "137.168.192.in-addr.arpa" IN {
         type master;
-        file "192.168.137.zone";
+        file "${IP_3}.zone";
 };
 eof
 
@@ -45,14 +45,14 @@ $TTL 1D
                 IN       NS            ns."${DOMAIN}".
 ns              IN       A             ${IP}
 011-centos      IN       A             ${IP}
-012-centos      IN       A             192.168.137.12
-013-centos      IN       A             192.168.137.13
-014-centos      IN       A             192.168.137.14
-015-centos      IN       A             192.168.137.15
+012-centos      IN       A             ${IP_3}.12
+013-centos      IN       A             ${IP_3}.13
+014-centos      IN       A             ${IP_3}.14
+015-centos      IN       A             ${IP_3}.15
 eof
 
 #配置反向文件：
-cat << eof > /var/named/192.168.137.zone
+cat << eof > /var/named/${IP_3}.zone
 \$TTL 1D
 @               IN  SOA  "${DOMAIN}".   root."${DOMAIN}". (
                                             0       ; serial
@@ -74,6 +74,6 @@ named-checkconf
 
 #检查正向和反向是否有问题：
 named-checkzone '"${DOMAIN}"' /var/named/"${DOMAIN}"
-named-checkzone '137.168.192.in-addr.apra' /var/named/192.168.137.zone
+named-checkzone '137.168.192.in-addr.apra' /var/named/${IP_3}.zone
 
 systemctl start named && systemctl enable named
