@@ -5,6 +5,7 @@
 * 第一章：计算机基础知识
 * 第二章：Linux 简史
   * 2.1：Linux的发展史
+  * 2.2：文件系统的介绍
 * 第三章：开始前的环境配置
   * [3.1：Hyper-V 入门知识](di-san-zhang-kai-shi-qian-de-huan-jing-pei-zhi/3.1hyperv-ru-men-zhi-shi.md)
   * 3.2：vmware 入门知识
