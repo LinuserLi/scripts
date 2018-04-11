@@ -14,7 +14,7 @@
   * [4.1：Linux镜像文件下载](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.1linux-jing-xiang-wen-jian-xia-zai.md)
   * [4.2：安装Linux操作系统](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.2-an-zhuang-linux-cao-zuo-xi-tong.md)
   * [4.3：动态获取IP地址](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.3-dong-tai-huo-qu-ip-di-zhi.md)
-  * 4.4：静态IP的配置
+  * [4.4：静态IP的配置](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.4-jing-tai-ip-de-pei-zhi.md)
 * [第四章：编辑器VIM 使用](di-si-zhang-bian-ji-qi-vim-shi-yong.md)
 * 第五章：基本命令使用
 * 第六章：用户管理及权限
