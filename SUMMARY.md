@@ -11,7 +11,7 @@
   * 3.2：vmware 入门知识
   * 3.3：Virtbox 入门知识
 * 第四章：系统安装及网络配置
-  * 4.1：Linux镜像文件下载
+  * [4.1：Linux镜像文件下载](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.1linux-jing-xiang-wen-jian-xia-zai.md)
   * [4.2：安装Linux操作系统](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.2-an-zhuang-linux-cao-zuo-xi-tong.md)
   * [4.3：动态获取IP地址](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.3-dong-tai-huo-qu-ip-di-zhi.md)
   * 4.4：静态IP的配置
