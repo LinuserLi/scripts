@@ -11,6 +11,8 @@
   * 3.2：vmware 入门知识
   * 3.3：Virtbox 入门知识
 * 第四章：系统安装及网络配置
+  * 4.1：Linux镜像文件下载
+  * 4.2：安装Linux操作系统
 * [第四章：编辑器VIM 使用](di-si-zhang-bian-ji-qi-vim-shi-yong.md)
 * 第五章：基本命令使用
 * 第六章：用户管理及权限
