@@ -12,7 +12,7 @@
   * 3.3：Virtbox 入门知识
 * 第四章：系统安装及网络配置
   * 4.1：Linux镜像文件下载
-  * 4.2：安装Linux操作系统
+  * [4.2：安装Linux操作系统](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.2-an-zhuang-linux-cao-zuo-xi-tong.md)
   * 4.3：动态获取IP地址
   * 4.4：静态IP的配置
 * [第四章：编辑器VIM 使用](di-si-zhang-bian-ji-qi-vim-shi-yong.md)
