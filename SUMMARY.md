@@ -28,7 +28,7 @@
 * 第八章：rpm 包与源码安装
 * 第九章：防火墙
 * 第十章：正则表达式
-  * 10.1：grep
+  * [10.1：grep](di-shi-zhang-zheng-ze-biao-da-shi/10.1-grep.md)
   * 10.2：sed
   * 10.3：awk
 * 第十一章：shell 脚本
