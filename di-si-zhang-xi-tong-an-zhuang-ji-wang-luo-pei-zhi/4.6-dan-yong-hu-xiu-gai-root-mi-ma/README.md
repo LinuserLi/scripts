@@ -57,3 +57,5 @@ reboot -f
 
 ![](../../.gitbook/assets/20180411201634.jpg)
 
+**参考网站：**[**https://www.linuxtechi.com/boot-rhel-7-centos-7-server-single-user-mode/**](https://www.linuxtechi.com/boot-rhel-7-centos-7-server-single-user-mode/)
+
