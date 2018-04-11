@@ -19,6 +19,7 @@
   * 4.6：远程连接
 * [第四章：编辑器VIM 使用](di-si-zhang-bian-ji-qi-vim-shi-yong.md)
 * 第五章：基本命令使用
+  * 5.1: find和locate文件搜索
 * 第六章：用户管理及权限
   * 6.1：认识/etc/passwd和/etc/shadow
   * 6.2:用户的添加、删除
