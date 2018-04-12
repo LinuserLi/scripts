@@ -17,7 +17,7 @@
   * [4.4：静态IP的配置](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.4-jing-tai-ip-de-pei-zhi.md)
   * [4.5：修改服务器名](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.5-xiu-gai-fu-wu-qi-ming.md)
   * [4.6：单用户修改root 密码](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.6-dan-yong-hu-xiu-gai-root-mi-ma/README.md)
-    * Untitled
+    * [4.7：grub2 加密](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.6-dan-yong-hu-xiu-gai-root-mi-ma/untitled.md)
   * 4.6：远程连接
 * [第四章：编辑器VIM 使用](di-si-zhang-bian-ji-qi-vim-shi-yong.md)
 * 第五章：基本命令使用

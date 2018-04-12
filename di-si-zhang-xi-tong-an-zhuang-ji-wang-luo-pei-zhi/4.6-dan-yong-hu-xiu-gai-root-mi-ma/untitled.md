@@ -1,0 +1,18 @@
+# 4.7：grub2 加密
+
+直接在命令行执行：
+
+```bash
+[root@centos ~]# grub2-setpassword
+Enter password:                        #输入密码
+Confirm password: 
+```
+
+重启服务器。在跳出内核页面的时候按字母 e ，进入grub 时会要求先输入密码：
+
+![](../../.gitbook/assets/20180412094444.jpg)
+
+![](../../.gitbook/assets/20180412094445.jpg)
+
+![](../../.gitbook/assets/20180412094446.jpg)
+
