@@ -27,7 +27,7 @@
   * 5.2：tail、head、less、more
   * 5.3：
 * 第六章：用户管理及权限
-  * 6.1：认识/etc/passwd和/etc/shadow
+  * [6.1：认识/etc/passwd和/etc/shadow](di-liu-zhang-yong-hu-guan-li-ji-quan-xian/6.1-ren-shi-etcpasswd-he-etcshadow.md)
   * 6.2:用户的添加、删除
 * 第七章：压缩与解压
   * 7.1：tar 压缩、解压
