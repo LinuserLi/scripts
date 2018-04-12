@@ -20,7 +20,7 @@
   * [4.6：单用户修改root 密码](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.6-dan-yong-hu-xiu-gai-root-mi-ma.md)
   * [4.7：grub2 加密](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.7grub2-jia-mi.md)
   * [4.8：救援模式](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.8-jiu-yuan-mo-shi.md)
-  * 4.9：远程连接
+  * [4.9：远程连接](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.9-yuan-cheng-lian-jie.md)
 * 第五章：基本命令使用
   * 5.1: find和locate文件搜索
   * 5.2：tail、head、less、more
