@@ -10,9 +10,9 @@ Confirm password:
 
 重启服务器。在跳出内核页面的时候按字母 e ，进入grub 时会要求先输入密码：
 
-![](../../.gitbook/assets/20180412094444.jpg)
+![](../.gitbook/assets/20180412094444.jpg)
 
-![](../../.gitbook/assets/20180412094445.jpg)
+![](../.gitbook/assets/20180412094445.jpg)
 
-![](../../.gitbook/assets/20180412094446.jpg)
+![](../.gitbook/assets/20180412094446.jpg)
 
