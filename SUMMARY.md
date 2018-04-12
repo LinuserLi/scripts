@@ -50,6 +50,7 @@
 * 第十五章：Java 环境配置
   * [15.1：JDK的安装配置](di-shi-wu-zhang-java-huan-jing-pei-zhi/15.1jdk-de-an-zhuang-pei-zhi.md)
   * [15.2：Tomcat的安装](di-shi-wu-zhang-java-huan-jing-pei-zhi/15.2tomcat-de-an-zhuang.md)
+  * [15.3：使用 yum 安装tomcat 环境](di-shi-wu-zhang-java-huan-jing-pei-zhi/15.3-shi-yong-yum-an-zhuang-tomcat-huan-jing.md)
 * 第十六章：LAMP 环境配置
 * 第十七章：LNMP 环境配置
 * Shell实例
