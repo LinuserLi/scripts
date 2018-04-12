@@ -35,7 +35,7 @@
 * 第九章：防火墙
 * 第十章：正则表达式
   * [10.1：grep和egrep](di-shi-zhang-zheng-ze-biao-da-shi/10.1grep-he-egrep.md)
-  * 10.2：sed
+  * [10.2：sed](di-shi-zhang-zheng-ze-biao-da-shi/10.2-sed.md)
   * 10.3：awk
 * 第十一章：shell 脚本
   * 11.1：if 条件判断
