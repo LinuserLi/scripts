@@ -2,6 +2,7 @@
 
 * [Linux 入门基础](README.md)
 * [前言](qian-yan.md)
+* [第四章：编辑器VIM 使用](di-si-zhang-bian-ji-qi-vim-shi-yong.md)
 * 第一章：计算机基础知识
 * 第二章：Linux 简史
   * 2.1：Linux的发展史
@@ -17,9 +18,8 @@
   * [4.4：静态IP的配置](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.4-jing-tai-ip-de-pei-zhi.md)
   * [4.5：修改服务器名](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.5-xiu-gai-fu-wu-qi-ming.md)
   * [4.6：单用户修改root 密码](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.6-dan-yong-hu-xiu-gai-root-mi-ma.md)
-  * [4.7：grub2 加密](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/untitled.md)
+  * [4.7：grub2 加密](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.7grub2-jia-mi.md)
   * 4.6：远程连接
-* [第四章：编辑器VIM 使用](di-si-zhang-bian-ji-qi-vim-shi-yong.md)
 * 第五章：基本命令使用
   * 5.1: find和locate文件搜索
   * 5.2：tail、head、less、more
@@ -33,7 +33,7 @@
 * 第八章：rpm 包与源码安装
 * 第九章：防火墙
 * 第十章：正则表达式
-  * [10.1：grep和egrep](di-shi-zhang-zheng-ze-biao-da-shi/10.1-grep.md)
+  * [10.1：grep和egrep](di-shi-zhang-zheng-ze-biao-da-shi/10.1grep-he-egrep.md)
   * 10.2：sed
   * 10.3：awk
 * 第十一章：shell 脚本
