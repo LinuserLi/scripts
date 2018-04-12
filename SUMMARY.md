@@ -19,7 +19,7 @@
   * [4.5：修改服务器名](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.5-xiu-gai-fu-wu-qi-ming.md)
   * [4.6：单用户修改root 密码](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.6-dan-yong-hu-xiu-gai-root-mi-ma.md)
   * [4.7：grub2 加密](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.7grub2-jia-mi.md)
-  * 4.6：远程连接
+  * 4.9：远程连接
 * 第五章：基本命令使用
   * 5.1: find和locate文件搜索
   * 5.2：tail、head、less、more
