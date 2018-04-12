@@ -49,7 +49,7 @@
   * 14.2：MySQL的操作
 * 第十五章：Java 环境配置
   * [15.1：JDK的安装配置](di-shi-wu-zhang-java-huan-jing-pei-zhi/15.1jdk-de-an-zhuang-pei-zhi.md)
-  * 15.2：Tomcat的安装
+  * [15.2：Tomcat的安装](di-shi-wu-zhang-java-huan-jing-pei-zhi/15.2tomcat-de-an-zhuang.md)
 * 第十六章：LAMP 环境配置
 * 第十七章：LNMP 环境配置
 * Shell实例
