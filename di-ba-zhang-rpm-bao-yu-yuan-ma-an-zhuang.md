@@ -8,7 +8,7 @@ description: >-
 
 **第一种方式： rpm ：**
 
-rpm 包是专用于 red-hat 系列的软件包，包名以 .rpm 结尾。 常用于服务器无法连接外网，只能讲包下载安装到服务器上，然后用这种方式安装
+rpm 包是专用于 red-hat 系列的软件包，包名以 .rpm 结尾。 常用于服务器无法连接外网，只能讲包下载安装到服务器上，然后用这种方式安装。缺点就是：不能自动安装包的依赖
 
 **使用格式：【rpm 参数 包名】，常用参数：**
 
@@ -32,7 +32,9 @@ rpm 包是专用于 red-hat 系列的软件包，包名以 .rpm 结尾。 常用
 
 -l： 查询列出安装包的所有文件
 
-**例如：**
+**例如：这里以 vim-common-7.4.160-2.el7.x86\_64.rpm 为例：**
+
+**说明：** vim-common：是包的名称； 7.4.160：版本号，依次为主版本号、次版本号、修订号；el7：表示这个软件包是在RHEL 7.x/CentOS 7.x 下使用； x86\_64：指使用平台，也就是64位的操作系统
 
 升级安装包：
 
@@ -42,10 +44,37 @@ Preparing...                          ################################# [100%]
 Updating / installing...
    1:vim-filesystem-2:7.4.160-2.el7   ################################# [ 50%]
    2:vim-common-2:7.4.160-2.el7       ################################# [100%]
-
 ```
 
-协助安装包：
+查询vim-common 包是否有安装。注：需要写包名，可以不写版本信息那些：
+
+```bash
+[root@centos ~]# rpm -qa vim-common
+vim-common-7.4.160-2.el7.x86_64
+```
+
+查询 vim 目录是属于哪个包的：
+
+```bash
+[root@centos ~]# rpm -qf /usr/share/vim
+vim-common-7.4.160-2.el7.x86_64
+```
+
+列出包的安装文件：
+
+```bash
+[root@centos ~]# rpm -ql vim-common |less
+/etc/vimrc
+/usr/bin/xxd
+/usr/share/doc/vim-common-7.4.160
+/usr/share/doc/vim-common-7.4.160/Changelog.rpm
+/usr/share/doc/vim-common-7.4.160/LICENSE
+/usr/share/doc/vim-common-7.4.160/README.patches
+......................................................
+/usr/share/vim/vim74/tutor/tutor.zh_tw.utf-8
+/usr/share/vim/vim74/vimrc_example.vim
+/usr/share/vim/vimfiles/template.spec
+```
 
 
 
