@@ -48,6 +48,7 @@
 * 第十四章：MySQL 基础使用
   * [14.1：MySQL的安装](di-shi-si-zhang-mysql-ji-chu-shi-yong/14.1mysql-de-an-zhuang.md)
   * 14.2：MySQL的操作
+  * [14.2：yum 安装](di-shi-si-zhang-mysql-ji-chu-shi-yong/14.2yum-an-zhuang.md)
 * 第十五章：Java 环境配置
   * [15.1：JDK的安装配置](di-shi-wu-zhang-java-huan-jing-pei-zhi/15.1jdk-de-an-zhuang-pei-zhi.md)
   * [15.2：Tomcat的安装](di-shi-wu-zhang-java-huan-jing-pei-zhi/15.2tomcat-de-an-zhuang.md)
