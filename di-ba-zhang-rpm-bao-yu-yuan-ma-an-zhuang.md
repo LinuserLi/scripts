@@ -258,7 +258,22 @@ Complete!
 
 根据命令查找包名：
 
+```bash
+[root@centos ~]# yum provides vim
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: mirror1.ku.ac.th
+ * extras: mirror1.ku.ac.th
+ * updates: mirror1.ku.ac.th
+2:vim-enhanced-7.4.160-2.el7.x86_64 : A version of the VIM editor which includes recent enhancements
+Repo        : base
+Matched from:
+Provides    : vim = 7.4.160-2.el7
+```
 
 
-第三种方式：源码或者二进制包
+
+**第三种方式：源码或者二进制包**
+
+源码包：顾名思义就是使用源代码写好的文件，只是经过测试安装后就将源代码打包发布的一种软件包。因为大部分包都是用C 语言写的，所以，我们需要有 c 语言编译环境，即系统必须要安装 gcc gcc-c++ make 这三个包。这种软件包的特点就是：发布软件的同时发布了源代码，你可以自行修改，但不允许用于商业应用。它的优点是：安装灵活，可以自由选择要安装的组件，指定安装路径，易卸载（只需要删除安装目录即可）；缺点就是：需要有Linux 基础支持，懂源码编译流程，耗时！
 
