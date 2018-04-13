@@ -62,6 +62,7 @@
   * [15.3：使用 yum 安装tomcat 环境](di-shi-wu-zhang-java-huan-jing-pei-zhi/15.3-shi-yong-yum-an-zhuang-tomcat-huan-jing.md)
   * 15.4：server.xml 文件详解
 * 第十六章：LAMP 环境配置
+  * [16.1：yum 安装LAMP](di-shi-liu-zhang-lamp-huan-jing-pei-zhi/16.1yum-an-zhuang-lamp.md)
 * 第十七章：LNMP 环境配置
 * Shell实例
 
