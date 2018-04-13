@@ -32,7 +32,7 @@
 * 第七章：压缩与解压
   * 7.1：tar 压缩、解压
   * 7.2、zip 压缩、解压
-* 第八章：rpm 包与源码安装
+* [第八章：rpm 包与源码安装](di-ba-zhang-rpm-bao-yu-yuan-ma-an-zhuang.md)
 * 第九章：防火墙
 * 第十章：正则表达式
   * [10.1：grep和egrep](di-shi-zhang-zheng-ze-biao-da-shi/10.1grep-he-egrep.md)
