@@ -85,15 +85,98 @@ vim-common-7.4.160-2.el7.x86_64
 /usr/share/vim/vimfiles/template.spec
 ```
 
+查看包的描述信息：
 
+```bash
+[root@centos ~]# rpm -qpi vim-common-7.4.160-2.el7.x86_64.rpm
+Name        : vim-common
+Epoch       : 2
+Version     : 7.4.160
+Release     : 2.el7
+Architecture: x86_64
+Install Date: (not installed)
+Group       : Applications/Editors
+Size        : 22146173
+License     : Vim
+Signature   : RSA/SHA256, Thu 10 Aug 2017 04:15:28 PM EDT, Key ID 24c6a8a7f4a80eb5
+Source RPM  : vim-7.4.160-2.el7.src.rpm
+Build Date  : Tue 01 Aug 2017 08:46:12 PM EDT
+Build Host  : c1bm.rdu2.centos.org
+Relocations : (not relocatable)
+Packager    : CentOS BuildSystem <http://bugs.centos.org>
+Vendor      : CentOS
+URL         : http://www.vim.org/
+Summary     : The common files needed by any version of the VIM editor
+Description :
+VIM (VIsual editor iMproved) is an updated and improved version of the
+vi editor.  Vi was the first real screen-based editor for UNIX, and is
+still very popular.  VIM improves on vi by adding new features:
+multiple windows, multi-level undo, block highlighting and more.  The
+vim-common package contains files which every VIM binary will need in
+order to run.
+If you are installing vim-enhanced or vim-X11, you'll also need
+to install the vim-common package.
+```
+
+查看包的依赖关系：
+
+```bash
+[root@centos ~]# rpm -qpR vim-common-7.4.160-2.el7.x86_64.rpm
+/bin/sh
+config(vim-common) = 2:7.4.160-2.el7
+libc.so.6()(64bit)
+libc.so.6(GLIBC_2.2.5)(64bit)
+libc.so.6(GLIBC_2.3)(64bit)
+libc.so.6(GLIBC_2.3.4)(64bit)
+rpmlib(CompressedFileNames) <= 3.0.4-1
+rpmlib(FileDigests) <= 4.6.0-1
+rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+rtld(GNU_HASH)
+vim-filesystem
+rpmlib(PayloadIsXz) <= 5.2-1
+```
 
 
 
 **第二种方式：yum**
 
-yum 是专用于在线安装，查找命令所在包的工具。但是在fedore 上已经变更为 dnf ，在red-hat 上是需要授权才可以使用yum 在线安装的
+yum 是专用于线安装，直接解决包的依赖关系， 在fedore 上已经变更为 dnf ，在red-hat 上是需要授权才可以使用yum 在线安装的。它的配置文件：/etc/yum.conf
 
-使用格式：yum 
+**使用格式：【yum 参数 命令 包名】：常用参数和命令：**
+
+**命令参数：**
+
+clean：清除源缓存数据
+
+erase：删除包
+
+groups：显示，使用组信息
+
+install：安装包
+
+list：列表
+
+makecache：生产缓存数据
+
+provides：根据命令查找包名
+
+reinstall：重新安装
+
+update：升级包
+
+upgrade：系统级升级
+
+**参数：**
+
+-y：询问确认时使用，无需交互
+
+--downloadonly：只下载，不安装
+
+--downloaddir=DLDIR：指定下载目录，默认存放在 /var/cache/yum/x86\_64/7/base/packages/
+
+
+
+
 
 
 
