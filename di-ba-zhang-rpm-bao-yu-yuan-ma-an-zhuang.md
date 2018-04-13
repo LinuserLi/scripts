@@ -174,9 +174,89 @@ upgrade：系统级升级
 
 --downloaddir=DLDIR：指定下载目录，默认存放在 /var/cache/yum/x86\_64/7/base/packages/
 
+**实例：**
 
+安装vim 包：
 
+```bash
+[root@centos ~]# yum -y install vim
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: mirror1.ku.ac.th
+ * extras: mirror1.ku.ac.th
+ * updates: mirror1.ku.ac.th
+Resolving Dependencies
+--> Running transaction check
+---> Package vim-enhanced.x86_64 2:7.4.160-2.el7 will be installed
+--> Finished Dependency Resolution
 
+Dependencies Resolved
+
+==================================================================================================================================================================================================================================================
+ Package                                                      Arch                                                   Version                                                           Repository                                            Size
+==================================================================================================================================================================================================================================================
+Installing:
+ vim-enhanced                                                 x86_64                                                 2:7.4.160-2.el7                                                   base                                                 1.0 M
+
+Transaction Summary
+==================================================================================================================================================================================================================================================
+Install  1 Package
+
+Total download size: 1.0 M
+Installed size: 2.2 M
+Downloading packages:
+vim-enhanced-7.4.160-2.el7.x86_64.rpm                                                                                                                                                                                      | 1.0 MB  00:00:01
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : 2:vim-enhanced-7.4.160-2.el7.x86_64                                                                                                                                                                                            1/1
+  Verifying  : 2:vim-enhanced-7.4.160-2.el7.x86_64                                                                                                                                                                                            1/1
+
+Installed:
+  vim-enhanced.x86_64 2:7.4.160-2.el7
+
+Complete!
+```
+
+卸载vim 包：
+
+```bash
+[root@centos ~]# yum -y erase vim
+Loaded plugins: fastestmirror
+Resolving Dependencies
+--> Running transaction check
+---> Package vim-enhanced.x86_64 2:7.4.160-2.el7 will be erased
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+==================================================================================================================================================================================================================================================
+ Package                                                      Arch                                                   Version                                                          Repository                                             Size
+==================================================================================================================================================================================================================================================
+Removing:
+ vim-enhanced                                                 x86_64                                                 2:7.4.160-2.el7                                                  @base                                                 2.2 M
+
+Transaction Summary
+==================================================================================================================================================================================================================================================
+Remove  1 Package
+
+Installed size: 2.2 M
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Erasing    : 2:vim-enhanced-7.4.160-2.el7.x86_64                                                                                                                                                                                            1/1
+  Verifying  : 2:vim-enhanced-7.4.160-2.el7.x86_64                                                                                                                                                                                            1/1
+
+Removed:
+  vim-enhanced.x86_64 2:7.4.160-2.el7
+
+Complete!
+```
+
+根据命令查找包名：
 
 
 
