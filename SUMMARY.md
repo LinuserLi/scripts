@@ -31,9 +31,13 @@
   * 6.2:用户的添加、删除
 * 第七章：压缩与解压
   * 7.1：tar 压缩、解压
-  * 7.2、zip 压缩、解压
+  * 7.2：zip 压缩、解压
+  * 7.3：gzip
 * [第八章：rpm 包与源码安装](di-ba-zhang-rpm-bao-yu-yuan-ma-an-zhuang.md)
 * 第九章：防火墙
+  * 9.1：iptables
+  * 9.2：firewalld
+  * [9.3：ufw](di-jiu-zhang-fang-huo-qiang/9.3-ufw.md)
 * 第十章：正则表达式
   * [10.1：grep和egrep](di-shi-zhang-zheng-ze-biao-da-shi/10.1grep-he-egrep.md)
   * [10.2：sed](di-shi-zhang-zheng-ze-biao-da-shi/10.2-sed.md)
@@ -44,6 +48,9 @@
   * 11.3：while 循环
   * 11.4：case 语句
 * 第十二章：Linux 日常管理
+  * 12.1：crontab 计划任务
+  * 12.2：tcpdump 网络监控
+  * 12.3：top 系统性能分析
 * 第十三章：防火墙的使用
 * 第十四章：MySQL 基础使用
   * [14.1：MySQL的安装](di-shi-si-zhang-mysql-ji-chu-shi-yong/14.1mysql-de-an-zhuang.md)
