@@ -66,5 +66,5 @@
   * [16.1：yum 安装LAMP](di-shi-liu-zhang-lamp-huan-jing-pei-zhi/16.1yum-an-zhuang-lamp.md)
 * 第十七章：LNMP 环境配置
 * Shell实例
-* 第五章、文件与目录管理
+* 第五章：文件与目录管理
 
