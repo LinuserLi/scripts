@@ -25,7 +25,7 @@
   * [4.9：远程连接](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.9-yuan-cheng-lian-jie.md)
 * 第五章：基本命令使用
   * [5.1: find和locate文件搜索](di-wu-zhang-ji-ben-ming-ling-shi-yong/5.1-find-he-locate-wen-jian-sou-suo.md)
-  * 5.2：tail、head、less、more
+  * [5.2：tail、head、less、more](di-wu-zhang-ji-ben-ming-ling-shi-yong/5.2-tail-head-less-more.md)
   * 5.3：
 * 第六章：用户管理及权限
   * [6.1：认识/etc/passwd和/etc/shadow](di-liu-zhang-yong-hu-guan-li-ji-quan-xian/6.1-ren-shi-etcpasswd-he-etcshadow.md)
