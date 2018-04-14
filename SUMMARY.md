@@ -3,6 +3,7 @@
 * [Linux 入门基础](README.md)
 * [前言](qian-yan.md)
 * [第四章：编辑器VIM 使用](di-si-zhang-bian-ji-qi-vim-shi-yong.md)
+* [第八章：rpm 包与源码安装](di-ba-zhang-rpm-bao-yu-yuan-ma-an-zhuang.md)
 * 第一章：计算机基础知识
 * 第二章：Linux 简史
   * 2.1：Linux的发展史
@@ -35,8 +36,8 @@
   * 7.2：zip 压缩、解压
   * 7.3：gzip
 * 第七章：基本命令使用
-  * [5.1: find和locate文件搜索](di-wu-zhang-ji-ben-ming-ling-shi-yong/5.1-find-he-locate-wen-jian-sou-suo.md)
-  * [5.2：tail、head、less、more](di-wu-zhang-ji-ben-ming-ling-shi-yong/5.2-tail-head-less-more.md)
+  * [5.1: find和locate文件搜索](di-qi-zhang-ji-ben-ming-ling-shi-yong/5.1-find-he-locate-wen-jian-sou-suo.md)
+  * [5.2：tail、head、less、more](di-qi-zhang-ji-ben-ming-ling-shi-yong/5.2-tail-head-less-more.md)
   * 5.3：cut和cat
 * 第九章：防火墙
   * 9.1：iptables
@@ -46,7 +47,6 @@
   * [10.1：grep和egrep](di-shi-zhang-zheng-ze-biao-da-shi/10.1grep-he-egrep.md)
   * [10.2：sed](di-shi-zhang-zheng-ze-biao-da-shi/10.2-sed.md)
   * [10.3：awk](di-shi-zhang-zheng-ze-biao-da-shi/10.3-awk.md)
-* [第八章：rpm 包与源码安装](di-ba-zhang-rpm-bao-yu-yuan-ma-an-zhuang.md)
 * 第十一章：shell 脚本
   * 11.1：if 条件判断
   * 11.2：for 循环
