@@ -30,15 +30,14 @@
 * 第六章：用户管理及权限
   * [6.1：认识/etc/passwd和/etc/shadow](di-liu-zhang-yong-hu-guan-li-ji-quan-xian/6.1-ren-shi-etcpasswd-he-etcshadow.md)
   * 6.2:用户的添加、删除
-* 第七章：基本命令使用
-  * [5.1: find和locate文件搜索](di-wu-zhang-ji-ben-ming-ling-shi-yong/5.1-find-he-locate-wen-jian-sou-suo.md)
-  * [5.2：tail、head、less、more](di-wu-zhang-ji-ben-ming-ling-shi-yong/5.2-tail-head-less-more.md)
-  * 5.3：cut和cat
 * 第七章：压缩与解压
   * 7.1：tar 压缩、解压
   * 7.2：zip 压缩、解压
   * 7.3：gzip
-* [第八章：rpm 包与源码安装](di-ba-zhang-rpm-bao-yu-yuan-ma-an-zhuang.md)
+* 第七章：基本命令使用
+  * [5.1: find和locate文件搜索](di-wu-zhang-ji-ben-ming-ling-shi-yong/5.1-find-he-locate-wen-jian-sou-suo.md)
+  * [5.2：tail、head、less、more](di-wu-zhang-ji-ben-ming-ling-shi-yong/5.2-tail-head-less-more.md)
+  * 5.3：cut和cat
 * 第九章：防火墙
   * 9.1：iptables
   * 9.2：firewalld
@@ -47,6 +46,7 @@
   * [10.1：grep和egrep](di-shi-zhang-zheng-ze-biao-da-shi/10.1grep-he-egrep.md)
   * [10.2：sed](di-shi-zhang-zheng-ze-biao-da-shi/10.2-sed.md)
   * [10.3：awk](di-shi-zhang-zheng-ze-biao-da-shi/10.3-awk.md)
+* [第八章：rpm 包与源码安装](di-ba-zhang-rpm-bao-yu-yuan-ma-an-zhuang.md)
 * 第十一章：shell 脚本
   * 11.1：if 条件判断
   * 11.2：for 循环
@@ -69,6 +69,7 @@
   * 15.4：server.xml 文件详解
 * 第十六章：LAMP 环境配置
   * [16.1：yum 安装LAMP](di-shi-liu-zhang-lamp-huan-jing-pei-zhi/16.1yum-an-zhuang-lamp.md)
+  * [16.2：源码编译LAMP](di-shi-liu-zhang-lamp-huan-jing-pei-zhi/16.2-yuan-ma-bian-yi-lamp.md)
 * 第十七章：LNMP 环境配置
 * Shell实例
 
