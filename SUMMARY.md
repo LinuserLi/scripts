@@ -3,6 +3,7 @@
 * [Linux 入门基础](README.md)
 * [前言](qian-yan.md)
 * [第四章：编辑器VIM 使用](di-si-zhang-bian-ji-qi-vim-shi-yong.md)
+* [第八章：rpm 包与源码安装](di-ba-zhang-rpm-bao-yu-yuan-ma-an-zhuang.md)
 * 第一章：计算机基础知识
 * 第二章：Linux 简史
   * 2.1：Linux的发展史
@@ -33,7 +34,6 @@
   * 7.1：tar 压缩、解压
   * 7.2：zip 压缩、解压
   * 7.3：gzip
-* [第八章：rpm 包与源码安装](di-ba-zhang-rpm-bao-yu-yuan-ma-an-zhuang.md)
 * 第九章：防火墙
   * 9.1：iptables
   * 9.2：firewalld
