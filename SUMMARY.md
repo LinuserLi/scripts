@@ -26,7 +26,7 @@
 * 第五章：文件与目录管理
   * [5.1：绝对路径和相对路径](di-wu-zhang-wen-jian-yu-mu-lu-guan-li/5.1-jue-dui-lu-jing-he-xiang-dui-lu-jing.md)
   * [5.2：文件的创建和目录的创建](di-wu-zhang-wen-jian-yu-mu-lu-guan-li/5.2-wen-jian-de-chuang-jian-he-mu-lu-de-chuang-jian.md)
-  * 5.3：linux文件属性
+  * [5.3：linux文件属性](di-wu-zhang-wen-jian-yu-mu-lu-guan-li/5.4linux-wen-jian-shu-xing.md)
   * 5.4：文件的所属主及所属组
 * 第六章：用户管理及权限
   * [6.1：认识/etc/passwd和/etc/shadow](di-liu-zhang-yong-hu-guan-li-ji-quan-xian/6.1-ren-shi-etcpasswd-he-etcshadow.md)
