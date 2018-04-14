@@ -23,7 +23,7 @@
   * [4.8：救援模式](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.8-jiu-yuan-mo-shi.md)
   * [4.9：远程连接](di-si-zhang-xi-tong-an-zhuang-ji-wang-luo-pei-zhi/4.9-yuan-cheng-lian-jie.md)
 * 第五章：文件与目录管理
-  * 5.1：绝对路径和相对路径
+  * [5.1：绝对路径和相对路径](di-wu-zhang-wen-jian-yu-mu-lu-guan-li/5.1-jue-dui-lu-jing-he-xiang-dui-lu-jing.md)
   * 5.2：环境变量
   * 5.3：文件的所属主及所属组
   * 5.4：linux文件属性
