@@ -26,7 +26,7 @@
 * 第五章：基本命令使用
   * [5.1: find和locate文件搜索](di-wu-zhang-ji-ben-ming-ling-shi-yong/5.1-find-he-locate-wen-jian-sou-suo.md)
   * [5.2：tail、head、less、more](di-wu-zhang-ji-ben-ming-ling-shi-yong/5.2-tail-head-less-more.md)
-  * 5.3：cut
+  * 5.3：cut和cat
 * 第六章：用户管理及权限
   * [6.1：认识/etc/passwd和/etc/shadow](di-liu-zhang-yong-hu-guan-li-ji-quan-xian/6.1-ren-shi-etcpasswd-he-etcshadow.md)
   * 6.2:用户的添加、删除
@@ -66,4 +66,5 @@
   * [16.1：yum 安装LAMP](di-shi-liu-zhang-lamp-huan-jing-pei-zhi/16.1yum-an-zhuang-lamp.md)
 * 第十七章：LNMP 环境配置
 * Shell实例
+* 文件与目录管理
 
