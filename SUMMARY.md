@@ -2,8 +2,8 @@
 
 * [Linux 入门基础](README.md)
 * [前言](qian-yan.md)
-* [第七章：编辑器VIM 使用](di-si-zhang-bian-ji-qi-vim-shi-yong.md)
 * [第八章：rpm 包与源码安装](di-ba-zhang-rpm-bao-yu-yuan-ma-an-zhuang.md)
+* [第七章：编辑器VIM 使用](di-qi-zhang-bian-ji-qi-vim-shi-yong.md)
 * 第一章：计算机基础知识
 * 第二章：Linux 简史
   * 2.1：Linux的发展史
