@@ -74,6 +74,7 @@
   * [16.1：yum 安装LAMP](di-shi-liu-zhang-lamp-huan-jing-pei-zhi/16.1yum-an-zhuang-lamp.md)
   * [16.2：源码编译LAMP](di-shi-liu-zhang-lamp-huan-jing-pei-zhi/16.2-yuan-ma-bian-yi-lamp.md)
   * [16.3：配置虚拟主机](di-shi-liu-zhang-lamp-huan-jing-pei-zhi/16.3-pei-zhi-xu-ni-zhu-ji.md)
+  * [16.4：配置SSL ，俗称HTTPS](di-shi-liu-zhang-lamp-huan-jing-pei-zhi/16.4-pei-zhi-ssl-su-cheng-https.md)
 * 第十七章：LNMP 环境配置
 * Shell实例
 
