@@ -76,6 +76,7 @@
   * [16.3：配置虚拟主机](di-shi-liu-zhang-lamp-huan-jing-pei-zhi/16.3-pei-zhi-xu-ni-zhu-ji.md)
   * [16.4：配置SSL ，俗称HTTPS](di-shi-liu-zhang-lamp-huan-jing-pei-zhi/16.4-pei-zhi-ssl-su-cheng-https.md)
 * 第十七章：LNMP 环境配置
-  * [17.1：yum 安装 lnmp 环境](di-shi-qi-zhang-lnmp-huan-jing-pei-zhi/17.1yum-an-zhuang-lnmp-huan-jing.md)
+  * [17.1：yum 安装 LNMP 环境](di-shi-qi-zhang-lnmp-huan-jing-pei-zhi/17.1yum-an-zhuang-lnmp-huan-jing.md)
+  * 17.2：源码编译安装LNMP
 * Shell实例
 
