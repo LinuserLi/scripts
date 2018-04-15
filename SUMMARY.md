@@ -29,7 +29,7 @@
   * [5.3：linux文件属性](di-wu-zhang-wen-jian-yu-mu-lu-guan-li/5.3linux-wen-jian-shu-xing.md)
   * [5.4：更改文件的组以及权限](di-wu-zhang-wen-jian-yu-mu-lu-guan-li/5.4-geng-gai-wen-jian-de-zu-yi-ji-quan-xian.md)
 * 第六章：用户管理
-  * [6.1：认识/etc/passwd和/etc/shadow](di-liu-zhang-yong-hu-guan-li-ji-quan-xian/6.1-ren-shi-etcpasswd-he-etcshadow.md)
+  * [6.1：认识/etc/passwd和/etc/shadow](di-liu-zhang-yong-hu-guan-li/6.1-ren-shi-etcpasswd-he-etcshadow.md)
   * 6.2:用户的添加、删除
 * 第七章：压缩与解压
   * 7.1：tar 压缩、解压
