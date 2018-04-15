@@ -38,7 +38,7 @@
 * 第七章：基本命令使用
   * [5.1: find和locate文件搜索](di-qi-zhang-ji-ben-ming-ling-shi-yong/5.1-find-he-locate-wen-jian-sou-suo.md)
   * [5.2：tail、head、less、more](di-qi-zhang-ji-ben-ming-ling-shi-yong/5.2-tail-head-less-more.md)
-  * 5.3：cut和cat
+  * [5.3：cut和cat](di-qi-zhang-ji-ben-ming-ling-shi-yong/5.3cut-he-cat.md)
 * 第九章：防火墙
   * 9.1：iptables
   * 9.2：firewalld
