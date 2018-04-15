@@ -57,6 +57,7 @@
   * 12.2：tcpdump 网络监控
   * 12.3：top 系统性能分析
   * 12.4：rsync 数据同步
+  * [12.5、openssl 做证书](di-shi-er-zhang-linux-ri-chang-guan-li/12.5openssl-zuo-zheng-shu.md)
 * 第十三章：防火墙的使用
 * 第十四章：MySQL 基础使用
   * [14.1：MySQL的安装](di-shi-si-zhang-mysql-ji-chu-shi-yong/14.1mysql-de-an-zhuang.md)
