@@ -79,5 +79,6 @@
   * [17.1：yum 安装 LNMP](di-shi-qi-zhang-lnmp-huan-jing-pei-zhi/17.1yum-an-zhuang-lnmp.md)
   * [17.2：源码编译LNMP](di-shi-qi-zhang-lnmp-huan-jing-pei-zhi/17.2-yuan-ma-bian-yi-lnmp.md)
   * [17.3：配置虚拟主机](di-shi-qi-zhang-lnmp-huan-jing-pei-zhi/17.3-pei-zhi-xu-ni-zhu-ji.md)
+  * [17.4：实操安装zabbix 监控](di-shi-qi-zhang-lnmp-huan-jing-pei-zhi/17.4-shi-cao-an-zhuang-zabbix-jian-kong.md)
 * Shell实例
 
