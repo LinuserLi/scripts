@@ -82,4 +82,6 @@
   * [17.3：配置虚拟主机](di-shi-qi-zhang-lnmp-huan-jing-pei-zhi/17.3-pei-zhi-xu-ni-zhu-ji.md)
   * [17.4：实操安装zabbix 监控](di-shi-qi-zhang-lnmp-huan-jing-pei-zhi/17.4-shi-cao-an-zhuang-zabbix-jian-kong.md)
 * Shell实例
+* 第十八章：NFS 与 SAMBA
+  * [18.1：NFS 文件共享](di-shi-ba-zhang-nfs-yu-samba/18.1nfs-wen-jian-gong-xiang.md)
 
