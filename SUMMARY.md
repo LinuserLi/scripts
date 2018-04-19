@@ -84,4 +84,5 @@
 * Shell实例
 * 第十八章：NFS 与 SAMBA
   * [18.1：NFS 文件共享](di-shi-ba-zhang-nfs-yu-samba/18.1nfs-wen-jian-gong-xiang.md)
+  * [18.2：FTP 服务器](di-shi-ba-zhang-nfs-yu-samba/18.2ftp-fu-wu-qi.md)
 
